@@ -2,7 +2,7 @@
 This program automatically detects changes made to selected UI File and keeps the selected Py file up-to-date.
 
 # Set Up
-Run the program from UIToPyConverter/Main EXE File/ and choose the UI file to convert and the destination PY file, you can copy the program in the
+Download and Run the program and choose the UI file to convert and the destination PY file, you can copy the program in the
 same folder as the UI File and it will auto detect it, and that is it!
 
 Now you can modify your UI file and the program will auto detect the changes and keep the selected PY file up-to-date, you can also manually convert using the Convert Button.
