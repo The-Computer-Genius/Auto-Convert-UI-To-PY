@@ -305,7 +305,7 @@ void CUIToPyConverterDlg::OnClickedConvert()
 		return;
 	
 	//Setting up Command to execute
-	sprintf(Command, "pyuic5 -x %s -o %s", FromFilePath, ToFilePath);
+	sprintf(Command, "pyuic5 -x \"%s\" -o \"%s\"", FromFilePath, ToFilePath);
 
 	//Executing command
 	system(Command);
